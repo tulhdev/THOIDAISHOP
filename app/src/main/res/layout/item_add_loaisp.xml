@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/khungitem">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm loại sản phẩm"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/avataSp_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link ảnh Loại sản phẩm"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/tenlsp_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Loại sản phẩm"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#2A66FF"
+            android:textSize="17dp"
+            android:id="@+id/LSP_Add"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:backgroundTint="#555B60"
+            android:textSize="17dp"
+            android:id="@+id/LSP_Cancel"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/trangchu"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Trang Chủ"
+        />
+    <item android:id="@+id/SanPham"
+        android:icon="@drawable/san_pham"
+        android:title="Sản phẩm"
+        />
+
+    <item android:id="@+id/LoaiSanPham"
+        android:icon="@drawable/loaigiay"
+        android:title="Loại Sản phẩm"
+        />
+
+    <item android:id="@+id/KichThuoc"
+        android:icon="@drawable/size_giay"
+        android:title="Kích Thước"
+        />
+
+    <item android:id="@+id/ThuongHieu"
+        android:icon="@drawable/thuong_hieu"
+        android:title="Thương hiệu"
+        />
+
+    <item android:id="@+id/ThanhVien"
+        android:icon="@drawable/thanh_vien"
+        android:title="Thành Viên"
+        />
+
+    <item android:id="@+id/HoaDon"
+        android:icon="@drawable/hoa_don"
+        android:title="Hóa đơn"
+        />
+    <item android:id="@+id/lsnaptien"
+        android:icon="@drawable/hoa_don"
+        android:title="Lich Su Nap Tien"
+        />
+
+    <item android:title="Thống kê">
+        <menu>
+            <item android:id="@+id/menuDT"
+                android:title="Doanh thu"
+                android:icon="@drawable/thong_ke"/>
+        </menu>
+    </item>
+    <item android:title="Thông tin">
+        <menu>
+
+            <item android:id="@+id/menuthongtin"
+                android:icon="@drawable/san_pham"
+                android:title="Về Chung Tôi"
+                />
+        </menu>
+
+    </item>
+
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/menuTND"
+                android:title="Thêm nhân viên"
+                android:icon="@drawable/add_user"/>
+            <item android:id="@+id/menuDMK"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/change_password"/>
+            <item android:id="@+id/menuDX"
+                android:title="Đăng xuất"
+                android:icon="@drawable/log_out"/>
+
+            <item
+                android:title=""
+                />
+        </menu>
+    </item>
+</menu>

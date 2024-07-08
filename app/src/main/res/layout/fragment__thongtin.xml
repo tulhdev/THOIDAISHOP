@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment_Thongtin"
+    android:background="@drawable/khung_item"
+    android:orientation="vertical"
+    android:layout_margin="10sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloothambi2bold"
+        android:gravity="center"
+        android:text="Thông tin về chúng tôi"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text=" 👋 Chào mừng đến với thờidaishop! Chúng tôi là nơi bạn có thể tìm thấy những đôi giày hoàn hảo cho phong cách riêng của bạn. 🥿👟👠 Với một bộ sưu tập đa dạng và đầy phong cách, chúng tôi cam kết mang đến cho bạn sự thoải mái, chất lượng và một cái nhìn độc đáo. 🎉 Bạn sẽ luôn tìm thấy những mẫu giày mới nhất và những xu hướng thời trang hàng đầu tại đây. 🌟 Niềm đam mê của chúng tôi là đảm bảo bạn tự tin và nổi bật trong mọi bước chân. 🚀 Hãy ghé thăm thờidaishop ngay hôm nay và khám phá đam mê của bạn qua từng đường nét trên đôi giày hoàn hảo! 💫✨"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="   Ứng dụng THờiDạiShop còn tích hợp nhiều tính năng thông minh giúp tối ưu hóa trải nghiệm của người dùng. Bạn có thể dễ dàng tìm kiếm sản phẩm theo loại Giày, nhãn hiệu ...."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="PetShop cam kết mang đến trải nghiệm thanh toán trực tuyến thuận lợi và tiện ích cho người dùng. Với hệ thống thanh toán an toàn và đáng tin cậy, bạn có thể nạp tiền vào tài khoản của mình một cách dễ dàng thông qua các phương thức thanh toán phổ biến như thẻ tín dụng, thẻ ghi nợ, hoặc ví điện tử."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/baloothambi2semibold"
+        android:text="Mọi thắc mắc có thể liên hệ với admin bằng Gmail: abc@gmail.com hoặc bằng tổng đài hỗ trợ của Thờiđạishop: 1900231024"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        /> />
+
+</LinearLayout>

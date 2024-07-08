@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/khungitem">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LẤY LẠI MẬT KHẨU"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        android:textColor="#F10606"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập email"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#E4CB81"
+        android:background="@drawable/button_backgruod_login"
+        />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi mật khẩu"
+        android:textSize="18sp"
+        android:background="@drawable/button_backgruod_login"
+        app:backgroundTint="@null"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủy"
+        android:textSize="18sp"
+        android:background="@drawable/button_backgruod_login"
+        app:backgroundTint="@null"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="true"
+        />
+
+
+</LinearLayout>
